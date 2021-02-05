@@ -18,6 +18,7 @@ STAC Collections are meant to be compatible with *OGC API - Features* Collection
 | Element         | Type                                             | Description                                      |
 | --------------- | ------------------------------------------------ | ------------------------------------------------ |
 | stac_version    | string                                           | **REQUIRED.** The STAC version the Collection implements. STAC versions can be mixed, but please keep the [recommended best practices](../best-practices.md#mixing-stac-versions) in mind. |
+| type            | string                                           | **REQUIRED.** Must be set to `Collection` to be a valid Collection. |
 | stac_extensions | \[string]                                        | A list of extension identifiers the Collection implements. |
 | id              | string                                           | **REQUIRED.** Identifier for the collection that is unique across the provider. |
 | title           | string                                           | A short descriptive one-line title for the collection.       |
